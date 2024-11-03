@@ -1,22 +1,22 @@
 #grid {
   position: absolute;
-  top: 10vh;
+  top: 10svh;
   left: 50%;
   transform: translateX(-50%);
-  height: 50vh;
-  width: 80vh;
+  height: 50svh;
+  width: 80svh;
   border-collapse: collapse;
   background: transparent;
 }
 
 td.heading-td {
-  height: 10vh;
-  width: 40vh;
+  height: 10svh;
+  width: 40svh;
 }
 
 td.visual-td {
-  height: 40vh;
-  width: 40vh;
+  height: 40svh;
+  width: 40svh;
 }
 
 .on-emotion-0,
@@ -27,7 +27,7 @@ td.visual-td {
 .on-emotion-5,
 .on-emotion-6,
 .on-emotion-7 {
-  background-size: 40vh;
+  background-size: 40svh;
 }
 
 .on-letter-0::after,
@@ -38,38 +38,38 @@ td.visual-td {
 .on-letter-5::after,
 .on-letter-6::after,
 .on-letter-7::after {
-  font-size: 39.9vh;
+  font-size: 39.9svh;
   line-height: 1;
 }
 
 #status-bar * {
   position: absolute;
   line-height: 100%;
-  font-size: 10vh;
+  font-size: 10svh;
 }
 
 #N-level {
-  font-size: 6.5vh;
+  font-size: 6.5svh;
 }
 
 #stimuli-counter {
-  bottom: 4vh;
-  right: 4vh;
+  bottom: 4svh;
+  right: 4svh;
 }
 
 #engine-btn {
-  bottom: 4vh;
-  left: 4vh;
+  bottom: 4svh;
+  left: 4svh;
 }
 
 #ear-left-btn,
 #ear-right-btn,
 #eye-left-btn,
 #eye-right-btn {
-  font-size: 7vh;
-  width: 10vw;
-  height: 24.5vh;
-  line-height: 24.5vh;
+  font-size: 7svh;
+  width: 10svw;
+  height: 24.5svh;
+  line-height: 24.5svh;
 }
 
 #ear-left-btn,
@@ -113,45 +113,45 @@ td.visual-td {
 }
 
 #progress-outer {
-  height: 2vh!important;
+  height: 2svh!important;
 }
 
 .results-icons td,
 .results-text {
   color: #fffff1;
-  font-size: 8vh;
-  padding: 2vh;
+  font-size: 8svh;
+  padding: 2svh;
 }
 
 .ct-label {
-  font-size: 6vh;
+  font-size: 6svh;
 }
 
 .btn-standard {
-  font-size: 7vh;
-  padding: 1vh 3vh;
+  font-size: 7svh;
+  padding: 1svh 3svh;
   cursor: pointer;
 }
 
 .btn-popup {
-  width: 12vh;
-  height: 12vh;
-  font-size: 7vh;
+  width: 12svh;
+  height: 12svh;
+  font-size: 7svh;
   cursor: pointer;
 }
 
 .btn-popup.normal {
-  top: 4vh;
-  right: 4vh;
+  top: 4svh;
+  right: 4svh;
 }
 
 .btn-popup.reflected {
-  top: 4vh;
-  right: 4vh;
+  top: 4svh;
+  right: 4svh;
 }
 
 #navigation {
-  padding: 4vh;
+  padding: 4svh;
 }
 
 .nav-item input,
@@ -160,18 +160,18 @@ td.visual-td {
 }
 
 label[for="nav-trigger"] {
-  top: 4vh;
-  left: 4vh;
-  width: 10vh;
-  height: 10vh;
+  top: 4svh;
+  left: 4svh;
+  width: 10svh;
+  height: 10svh;
 }
 
 #nav-trigger:checked+label {
-  left: 67vh;
+  left: 67svh;
 }
 
 #nav-trigger:checked~#site-wrap {
-  left: 63vh;
+  left: 63svh;
 }
 
 #nav-trigger+label,
@@ -182,17 +182,17 @@ label[for="nav-trigger"] {
 .nav-item label,
 .nav-item p,
 .nav-item span.range-label {
-  width: 55vh;
+  width: 55svh;
   color: #fffff1;
-  font-size: 5vh;
+  font-size: 5svh;
   font-weight: 700;
 }
 
 .nav-item input,
 .nav-item select {
   display: block;
-  width: 55vh!important;
-  font-size: 5vh;
+  width: 55svh!important;
+  font-size: 5svh;
   border: 0;
   border-radius: 4px;
 }
@@ -200,12 +200,12 @@ label[for="nav-trigger"] {
 input[type=range].slider::-webkit-slider-runnable-track,
 .nav-item input,
 .nav-item select {
-  height: 8vh;
+  height: 8svh;
 }
 
 input[type=range].slider::-webkit-slider-thumb {
-  height: 8vh;
-  width: 6vh;
+  height: 8svh;
+  width: 6svh;
 }
 
 @media (min-width:961px) {
@@ -214,29 +214,29 @@ input[type=range].slider::-webkit-slider-thumb {
     margin-bottom: 8px;
   }
   #nav-trigger:checked+label {
-    left: 35vh;
+    left: 35svh;
   }
   #nav-trigger:checked~#site-wrap {
-    left: 31vh;
+    left: 31svh;
   }
   .nav-item label,
   .nav-item p,
   .nav-item span.range-label {
-    width: 23vh;
-    font-size: 2.5vh;
+    width: 23svh;
+    font-size: 2.5svh;
   }
   .nav-item input,
   .nav-item select {
-    width: 23vh!important;
-    font-size: 2.5vh;
+    width: 23svh!important;
+    font-size: 2.5svh;
   }
   input[type=range].slider::-webkit-slider-runnable-track,
   .nav-item input,
   .nav-item select {
-    height: 4vh;
+    height: 4svh;
   }
   input[type=range].slider::-webkit-slider-thumb {
-    height: 4vh;
-    width: 2.67vh;
+    height: 4svh;
+    width: 2.67svh;
   }
 }
